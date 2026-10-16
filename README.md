@@ -1,6 +1,6 @@
 # CS5998 Capstone: Explainable Activity Recognition from a Smart Textile Pressure Sensor
 
-**Student:** P.B.W. Nanayakkara (268472T) | **Programme:** MSc Data Science & AI | **Module:** CS5998
+**Student:** P.B.W. Nanayakkara (268472T) | **Programme:** Masters in Data Science & AI | **Module:** CS5998 - Capstone Project
 
 Recognising 18 everyday activities from a textile pressure-sensor sleeve (the *Smart-Sleeve*),
 treating the data as a multivariate time series, and explaining predictions with a
