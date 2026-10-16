@@ -1,0 +1,5 @@
+model,protocol,accuracy,macro_f1
+Logistic Regression,10-fold,0.6861,0.6867
+Logistic Regression,LOSO,0.5933,0.5931
+Random Forest,10-fold,0.7433,0.7398
+Random Forest,LOSO,0.6651,0.66
