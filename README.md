@@ -9,9 +9,9 @@ time-series-specific explainability method.
 ## Status
 - [x] Repo set up, dataset downloaded and verified
 - [x] Segmentation pipeline (2,520 labelled segments)
-- [ ] EDA and preprocessing
-- [ ] Baselines (Logistic Regression, Random Forest)
-- [ ] 1D-CNN
+- [x] EDA and preprocessing
+- [x] Baselines (Logistic Regression, Random Forest)
+- [x] 1D-CNN
 - [ ] Time-series explainability
 - [ ] Final report
 
