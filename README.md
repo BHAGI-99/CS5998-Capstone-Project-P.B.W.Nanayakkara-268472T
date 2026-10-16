@@ -1,4 +1,4 @@
-# CS5998 Capstone: Explainable Activity Recognition from a Smart Textile Pressure Sensor
+# CS5998 Capstone Project: Explainable Activity Recognition from a Smart Textile Pressure Sensor
 
 **Student:** P.B.W. Nanayakkara (268472T) | **Programme:** Masters in Data Science & AI | **Module:** CS5998 - Capstone Project
 
