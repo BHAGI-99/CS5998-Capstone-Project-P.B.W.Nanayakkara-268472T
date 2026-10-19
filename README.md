@@ -12,7 +12,7 @@ time-series-specific explainability method.
 - [x] EDA and preprocessing
 - [x] Baselines (Logistic Regression, Random Forest)
 - [x] 1D-CNN
-- [ ] Time-series explainability
+- [x] Time-series explainability
 - [ ] Final report
 
 ## Dataset
