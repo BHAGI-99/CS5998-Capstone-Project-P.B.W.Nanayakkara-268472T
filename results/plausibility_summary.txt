@@ -1,0 +1,21 @@
+LOSO accuracy from the saved predictions: 0.6421
+Spearman correlation between map similarity and confusion rate over the 153 activity pairs: rho=0.49 (p=1.7e-10)
+
+Most confused activity pairs (symmetric confusion rate, map cosine similarity):
+  12 Hold cheeks                    <-> 13 Play mobile phone               confusion=0.20  similarity=0.89
+   9 Lean forward at work           <-> 16 Sit with hands on the armrests  confusion=0.16  similarity=0.86
+   2 Fold arms                      <->  7 Hug a doll                      confusion=0.15  similarity=0.89
+  14 Write with a hunchback         <-> 15 Write with a straight back      confusion=0.12  similarity=0.96
+  15 Write with a straight back     <-> 16 Sit with hands on the armrests  confusion=0.11  similarity=0.93
+  16 Sit with hands on the armrests <-> 17 Sit leaning to the right        confusion=0.11  similarity=0.79
+  17 Sit leaning to the right       <-> 18 Sit with arms on the legs       confusion=0.11  similarity=0.95
+   9 Lean forward at work           <-> 14 Write with a hunchback          confusion=0.11  similarity=0.93
+
+Hand-picked semantic pairs:
+  14<->15 write hunched vs straight              confusion=0.12  similarity=0.96
+   9<->10 lean forward vs back at work           confusion=0.05  similarity=0.46
+   4<-> 5 side vs back against wall              confusion=0.01  similarity=0.23
+  16<->18 hands on armrests vs arms on legs      confusion=0.01  similarity=0.69
+   1<->11 stand vs sleep on the table (unrelated) confusion=0.00  similarity=0.60
+
+For scale: mean confusion over all pairs = 0.021; mean similarity = 0.51

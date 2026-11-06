@@ -1,7 +1,9 @@
 numpy
 pandas
+scipy
 scikit-learn
 matplotlib
 seaborn
 jupyter
+ipywidgets
 tensorflow
