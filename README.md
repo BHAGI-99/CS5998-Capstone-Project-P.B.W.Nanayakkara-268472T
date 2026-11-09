@@ -52,7 +52,7 @@ Interactive demo (Colab or Jupyter): `from src.demo import launch; launch()`
 The published figures use different, hand-made features, so they are a reference and not a like-for-like comparison.
 
 ## Explainability findings so far (single dataset, 14 subjects; see the report for limits)
-- **Time ablation:** shuffling the frames or replacing every frame with the trial's average frame leaves CNN accuracy unchanged (10-fold means 74.0% / 74.0% / 74.1% for original / shuffled / average-frame input; `results/figures/time_ablation.csv`). The model recognises activities from *where* the sleeve is pressed, not *when*.
+- **Time ablation:** shuffling the frames or replacing every frame with the trial's average frame leaves CNN accuracy unchanged (10-fold means 73.5% / 73.6% / 73.6% for original / shuffled / average-frame input; `results/figures/time_ablation.csv`). The model recognises activities from *where* the sleeve is pressed, not *when*.
 - **Spatial faithfulness:** Integrated Gradients and TSR pick sensors that matter far more than random sensors, but rank sensors almost the same way as raw pressure (Spearman 0.99 for IG vs pressure). Single-run AUC gaps between IG/TSR and a highest-pressure baseline are small and change from run to run; the 5-split repeat (`xai_faithfulness_multiseed.csv`) is the more reliable evidence.
 - **Temporal faithfulness:** frames chosen by CAM or TSR time relevance are not more important than random frames.
 - **Plausibility:** the CNN's confusions follow pressure-pattern similarity (Spearman rho = 0.49 over the 153 activity pairs; pairs are not independent, so the p-value is optimistic). Most-confused pairs include near-duplicates such as writing hunched vs straight (14/15) and the seated variants (16-18).
