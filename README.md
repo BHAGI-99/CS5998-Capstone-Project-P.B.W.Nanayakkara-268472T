@@ -76,3 +76,5 @@ experiments, seeds 1-5 for the repeated-split experiments. Input: 208 frames x 2
 trials longer than 208 frames (123 of 2,520) are truncated, shorter ones zero-padded. CNN: 3 x Conv1D (64, 128, 128;
 kernel 5, 5, 3) + BatchNorm + ReLU, global average pooling, dropout 0.3, dense softmax (158,034 parameters). Adam
 (lr 0.001), batch 32, up to 60 epochs, early stopping (patience 8) on a validation split taken from the training data only.
+
+Splits: 10-fold CV is stratified and shuffled (seed 42); LOSO uses 14 folds (one subject held out per fold); the explainability experiments use a stratified 80/20 split with 10% of the training part held out for validation.
