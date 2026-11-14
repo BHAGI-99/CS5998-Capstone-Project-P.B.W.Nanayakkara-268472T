@@ -1,0 +1,2 @@
+models,trials,IG_spearman_same_trial,IG_top10_jaccard,IG_spearman_other_trial_same_class,IG_vs_pressure_spearman,CAM_pearson_same_trial
+5,200,0.993,0.658,0.241,0.995,0.695
