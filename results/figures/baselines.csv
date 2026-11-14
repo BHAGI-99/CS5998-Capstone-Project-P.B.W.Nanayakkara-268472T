@@ -3,3 +3,5 @@ Logistic Regression,10-fold,0.6861,0.6867
 Logistic Regression,LOSO,0.5933,0.5931
 Random Forest,10-fold,0.7433,0.7398
 Random Forest,LOSO,0.6651,0.66
+"SVM (RBF, C tuned)",10-fold,0.7722,0.7736
+"SVM (RBF, C tuned)",LOSO,0.6639,0.6664

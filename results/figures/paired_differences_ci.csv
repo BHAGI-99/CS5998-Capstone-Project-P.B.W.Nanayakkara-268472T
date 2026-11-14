@@ -1,0 +1,11 @@
+protocol,comparison,accuracy_difference,ci95_low,ci95_high,share_of_resamples_above_0
+10-fold,Random Forest minus Logistic Regression,0.0571,0.0357,0.077,1.0
+10-fold,"SVM (RBF, C tuned) minus Random Forest",0.029,0.0083,0.05,0.9972
+10-fold,1D-CNN minus Random Forest,-0.0067,-0.027,0.0131,0.2508
+10-fold,"1D-CNN minus SVM (RBF, C tuned)",-0.0357,-0.0564,-0.0135,0.0
+10-fold,"SVM (RBF, C tuned) minus Logistic Regression",0.0861,0.0679,0.1028,1.0
+LOSO,Random Forest minus Logistic Regression,0.0718,0.0417,0.0996,1.0
+LOSO,"SVM (RBF, C tuned) minus Random Forest",-0.0012,-0.021,0.0179,0.4628
+LOSO,1D-CNN minus Random Forest,-0.0179,-0.0464,0.0123,0.1154
+LOSO,"1D-CNN minus SVM (RBF, C tuned)",-0.0167,-0.0425,0.0067,0.0926
+LOSO,"SVM (RBF, C tuned) minus Logistic Regression",0.0706,0.0496,0.0929,1.0

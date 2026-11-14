@@ -1,0 +1,11 @@
+activity_a,name_a,activity_b,name_b,confusion_rate
+12,Hold cheeks,13,Play mobile phone,0.221
+9,Lean forward at work,16,Sit with hands on the armrests,0.132
+16,Sit with hands on the armrests,17,Sit leaning to the right,0.132
+2,Fold arms,7,Hug a doll,0.129
+14,Write with a hunchback,15,Write with a straight back,0.129
+15,Write with a straight back,16,Sit with hands on the armrests,0.114
+9,Lean forward at work,14,Write with a hunchback,0.111
+17,Sit leaning to the right,18,Sit with arms on the legs,0.111
+9,Lean forward at work,15,Write with a straight back,0.096
+3,Think,12,Hold cheeks,0.089

@@ -1,0 +1,9 @@
+protocol,model,accuracy,ci95_low,ci95_high
+10-fold,Logistic Regression,0.6861,0.6409,0.7313
+10-fold,Random Forest,0.7433,0.6893,0.7968
+10-fold,"SVM (RBF, C tuned)",0.7722,0.7135,0.8278
+10-fold,1D-CNN,0.7365,0.6889,0.7818
+LOSO,Logistic Regression,0.5933,0.5357,0.6504
+LOSO,Random Forest,0.6651,0.598,0.7321
+LOSO,"SVM (RBF, C tuned)",0.6639,0.5984,0.7286
+LOSO,1D-CNN,0.6472,0.5944,0.7036
