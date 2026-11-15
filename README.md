@@ -41,7 +41,7 @@ Xu, Wan, Deng, Guo & Cheng (2022). Smart-Sleeve: A Wearable Textile Pressure Sen
 Recognition. *Sensors*, 22(5), 1702. https://doi.org/10.3390/s22051702
 
 ## How to reproduce
-Open the notebooks in `notebooks/final/` in Google Colab and run them **in order**. Use a T4 GPU for notebooks 02-05
+Open the notebooks in `notebooks/` in Google Colab and run them **in order**. Use a T4 GPU for notebooks 02-05
 (Runtime > Change runtime type). Each notebook starts with the same setup cell, ends with a self-check
 ("ALL PASS") and downloads its results. All result files (CSV, NPY and PNG) are stored in `results/figures/`.
 
