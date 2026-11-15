@@ -99,7 +99,7 @@ Regression by about 7 points (intervals exclude 0); the CNN is about 5 points ab
 ## Repository layout
 ```
 README.md, requirements.txt, .gitignore
-notebooks/final/  the five notebooks that reproduce every reported result (run 01 to 05 in order)
+notebooks/        the five notebooks that reproduce every reported result (run 01 to 05 in order)
 src/              data scripts, shared helpers (common.py), stability, plausibility, final model, demo
 models/           saved final CNN (cnn_final.keras) and its hold-out indices
 results/figures/  all result files: CSV, NPY and PNG, plus plausibility_summary.txt
