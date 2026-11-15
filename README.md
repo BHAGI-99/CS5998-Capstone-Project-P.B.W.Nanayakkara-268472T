@@ -72,6 +72,8 @@ Paired differences (`paired_differences_ci.csv`): under 10-fold the SVM beats Ra
 Under LOSO, no difference among Random Forest, SVM and CNN is clear (all intervals include 0); Random Forest and SVM beat Logistic
 Regression by about 7 points (intervals exclude 0); the CNN is about 5 points above it (not part of the paired table).
 
+The interactive demo uses a final CNN trained on a fixed split (seed 42): 73.0% accuracy on its 504-trial hold-out set (models/cnn_final.keras).
+
 ### Data quality (`data_quality_summary.csv`)
 - 140 round files, 2,520 trials, exactly 140 per activity and 180 per subject.
 - 90 of 140 files contain one truncated row (a dropped packet); **none** lies inside a labelled trial.
